@@ -1,0 +1,50 @@
+.three
+  background: #fff url(../img/bg3.jpg) 50% 50% no-repeat
+  background-size: cover
+  padding: 30px 60px
+  color: #fff
+  &__box
+    width: 680px
+    top: 23%
+    left calc(35% - 256px)
+    +lg-m()
+      left calc(40% - 256px)
+    +sm-m()
+      left calc(50% - 256px)
+    +sm-s()
+      left calc(28% - 256px)
+    +ps-m()
+      left calc(25% - 256px)
+  &__h1
+    +lg-m()
+      font-size 90px
+    +sm-m()
+      font-size 80px
+    +sm-s()
+      font-size 50px
+      width 500px
+      margin 0 auto
+    +xxs-m()
+      font-size 50px
+      width 320px
+      margin 0 auto
+    +xs-m()
+      width 370px
+      margin 0 auto
+    +ps-m()
+      font-size 50px
+      width 320px
+      margin  0 auto
+  &__txt
+    width: 505px
+    text-align: left
+    margin-top: 10px
+    margin-left: 10px
+    margin-bottom: 40px
+    +sm-s()
+      margin 0 auto 20px auto
+      text-align center
+  &__btn
+    width: 200px
+    +sm-s()
+      margin 0 auto

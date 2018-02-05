@@ -1,0 +1,61 @@
+.four
+  background: #fff url(../img/bg4.jpg) 0 0 no-repeat
+  background-size: cover
+  padding: 30px 60px
+  color: #fff
+  &__box
+    position: absolute
+    display: flex
+    align-items: center
+    top: calc(46% - 70px)
+    left calc(50% - 610px)
+    +xl-s()
+      row-flex()
+      left: calc(75% - 610px);
+      top: calc(40% - 70px)
+    +sm-m()
+      left: calc(97% - 610px);
+    +sm-s()
+      left 0
+      justify-content center
+  &__title
+    ms700()
+    font-size: 59px
+    +xl-s()
+      col()
+      size(12)
+      margin-bottom 20px
+    +sm-s()
+      text-align center
+  &__span
+    ms100()
+    font-size: 57px
+  &__txt
+    width: 505px
+    text-align: left
+    margin-left: 80px
+    margin-right: 80px
+    line-height: 1.5
+    ms300()
+    font-size: 21px
+    +xl-s()
+      col() 
+      size(10)
+      offset(1)
+      margin-bottom 20px
+    +sm-s()
+      display none
+  &__item
+    +xl-s()
+      col() 
+      size(10)
+      offset(1)
+      margin-bottom 20px
+    +sm-s()
+      text-align center
+  &__go
+    ms300()
+    font-size: 24px
+  &__more
+    justify-content: flex-start
+    margin-top: 10px

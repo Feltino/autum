@@ -1,0 +1,46 @@
+fon = #000
+ctr = #FF183A
+txt-b = #000
+txt-w = #fff
+
+reset()
+
+phone()
+  display none
+  +sm-s()
+    display block
+
+pc()
+  display block
+  +sm-s()
+    display none
+
+.visually-hidden
+  position: absolute
+  width: 1px
+  height: 1px
+  margin: -1px
+  padding: 0
+  bottom: 0
+  overflow: hidden
+  clip: rect(0px,0px,0px,0px)
+
+.wrapper
+  wrapper()
+
+shadow()
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+shadow3()
+  -webkit-box-shadow: 2px 3px 27px -5px rgba(207,207,207,1);
+  -moz-box-shadow: 2px 3px 27px -5px rgba(207,207,207,1);
+  box-shadow: 2px 3px 27px -5px rgba(207,207,207,1);
+shadow1()
+  -webkit-box-shadow: 2px 24px 27px -5px rgba(128,142,191,1);
+  -moz-box-shadow: 2px 24px 27px -5px rgba(128,142,191,1);
+  box-shadow: 2px 24px 27px -5px rgba(128,142,191,1);
+shadow2()
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(168,168,168,1);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(168,168,168,1);
+  box-shadow: 0px 0px 4px 0px rgba(168,168,168,1);

@@ -1,0 +1,165 @@
+.one
+  background: #fff url(../img/bg1.jpg) 0 0 no-repeat
+  background-size: cover
+  background-attachment fixed
+  padding: 30px 60px
+  color: #fff
+  &__social
+    position: absolute
+    top 35%
+    display: flex
+    flex-direction: column
+    +sm-s()
+      display none
+  &__icon
+    margin-bottom: 30px
+  &__box
+    position: absolute
+    top: 25%
+    left: calc( 50% - 256px)
+    display: block
+    margin: 0 auto
+    width: 512px
+    +ps-m()
+      top 20%
+  &__up
+    ms100()
+    font-size: 30px
+    +sm-s()
+      display none
+  &__h1
+    ms700()
+    font-size: 121px
+    +sm-s()
+      font-size: 63px;
+      text-align: center;
+  &__down
+    ms100()
+    font-size: 30px
+    text-align: right
+    +sm-s()
+      display none
+  &__txt
+    ms300()
+    font-size: 21px
+    text-align: center
+    margin-top: 40px
+    margin-bottom: 50px
+    +sm-s()
+      width: 348px;
+      display: block;
+      margin: 0 auto;
+      margin-top 20px
+      margin-bottom 20px
+    +ps-m()
+      width: 291px;
+      display: block;
+      margin: 0 auto;
+      margin-bottom 20px
+  &__btn
+    display: flex
+  &__eat
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 258px
+    height: 56px
+    border 1px solid #fff
+    color: #fff
+    text-decoration: none
+    text-align: center
+    margin-right: 10px
+    ms300()
+    font-size: 16px
+    +sm-s()
+      display none
+    &:hover, &:active, &:focus
+      text-decoration: underline
+  &__house
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 258px
+    height: 58px
+    background-color: ctr
+    color: #fff
+    text-decoration: none
+    text-align: center
+    margin-left: 10px
+    ms300()
+    font-size: 16px
+    +sm-s()
+      margin 0 auto
+    &:hover, &:active, &:focus
+      background-color darken(ctr, 20)
+      text-decoration: underline
+  &__bullet
+    position: absolute
+    left calc(100% - 89px)
+    top: 35%
+    display: flex
+    flex-direction: column
+    align-items: center
+    +sm-s()
+      display none
+  &__out
+    margin-bottom: 25px
+    cursor pointer
+  &__copy
+    phil()
+    position: absolute
+    top: calc(100% - 55px)
+    pc()
+  &__click
+    position: absolute
+    top: calc(100% - 70px)
+    left: calc(50% - 16px)
+  &__go
+    position: absolute
+    display: flex
+    align-items: center
+    top: calc(100% - 60px)
+    left: calc(100% - 115px)
+    +sm-s()
+      display none
+  &__right
+    background-image: url(../img/right.png)
+    width: 31px
+    height: 31px
+    margin-right: 7px
+    cursor pointer
+    &:hover, &:active, &:focus
+      background-image: url(../img/right_up.png)
+  &__left
+    background-image: url(../img/left.png)
+    width: 31px
+    height: 31px
+    margin-left: 7px
+    cursor pointer
+    &:hover, &:active, &:focus
+      background-image: url(../img/left_up.png)
+.head
+  display: flex
+  align-items: center
+  &__ham
+    +sm-s()
+      margin-left auto
+  &__logo
+    font-size: 19px
+    phil()
+  &__menu
+    margin-left: auto
+    margin-right: 113px
+    pc()
+    +sm-m()
+      margin 0 auto
+  &__a
+    ms300()
+    font-size: 19px
+    color: #fff
+    text-decoration: none
+    margin-left: 26px
+    padding-bottom: 7px
+    &:hover, &:active, &:focus
+      text-decoration: underline
+      text-decoration-color: ctr
